@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pisi.MasterData", "Pisi.MasterData\Pisi.MasterData.csproj", "{521A9E68-2EA4-4B69-B82D-6E6FC8285773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pisi.MasterData.UnitTest", "Pisi.MasterData.UnitTest\Pisi.MasterData.UnitTest.csproj", "{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FD9509A-131D-4E9C-A1CA-F1F8642C6D48}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Pisi.MasterData.vsmdi = Pisi.MasterData.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pisi.MasterData.Contract", "Pisi.MasterData.Contract\Pisi.MasterData.Contract.csproj", "{562EAF99-9042-4A65-9384-D9D2237938C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExposeToRelayConsole", "ExposeToRelayConsole\ExposeToRelayConsole.csproj", "{C32455CE-98F7-423A-A53A-1736B06A2448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pisi.MasterData.Services", "Pisi.MasterData.Services\Pisi.MasterData.Services.csproj", "{869591AA-E897-4E75-BA22-71FE80D3AB64}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Pisi.MasterData.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{521A9E68-2EA4-4B69-B82D-6E6FC8285773}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FFF79854-41E0-43C4-9B9C-086DEFA3D2E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{562EAF99-9042-4A65-9384-D9D2237938C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Debug|x86.ActiveCfg = Debug|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Debug|x86.Build.0 = Debug|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Release|Any CPU.ActiveCfg = Release|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Release|x86.ActiveCfg = Release|x86
+		{C32455CE-98F7-423A-A53A-1736B06A2448}.Release|x86.Build.0 = Release|x86
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{869591AA-E897-4E75-BA22-71FE80D3AB64}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
